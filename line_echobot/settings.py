@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/1.10/ref/settings/
 
 import os
 
+from django.core.exceptions import ImproperlyConfigured
+
 
 def get_env_variable(var_name):
     try:
