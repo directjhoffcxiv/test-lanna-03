@@ -25,7 +25,7 @@ def get_env_variable(var_name):
 try:
     from .settings_secret import *
 except ImportError:
-    SECRET_KEY = get_env_variable('#4_0ld-ftqp7s8(s%ubplsadr*5m*qa(+4d)cmm=6v*6=yvun-')
+    SECRET_KEY = get_env_variable('o@)y!&%h-2^j+yko1uufdvo-q_fj)!0a83(y^3+=q7b@n$x8u^')
     LINE_CHANNEL_ACCESS_TOKEN = get_env_variable('N1GTeUQXeB77zQpSTKeoprctXQDZI1OQPAJNfuDZVHgUHBEeY2zPQXiLG7dOhFodGwCu1PXFv+bY/wDAODAFN+rpKMLoQaUYjJGdxNIMWGcOMy7sbNjv8mDcMrFSw4HpMn2VmSR0s+CgY4kHc7BMDwdB04t89/1O/w1cDnyilFU=')
     LINE_CHANNEL_SECRET = get_env_variable('b99029980da84da3980d785cf5737d63')
 
